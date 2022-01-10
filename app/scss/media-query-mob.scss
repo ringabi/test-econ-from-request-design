@@ -1,0 +1,396 @@
+@media (max-width: 415px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
+  .order-sm-5 {
+    order: 5;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 88.88vw;
+    height: 71px;
+    padding: 16.89px 0 17.24px;
+  }
+
+  .banner > img {
+    width: 596.25px;
+    height: 213.25px;
+  }
+
+  .to-cart > img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .discount img {
+    width: 11.47px;
+    height: 12.29px;
+  }
+
+  .header > img:nth-of-type(1) {
+    width: 25px;
+    height: 18.31px;
+  }
+
+  .search {
+    box-sizing: border-box;
+    width: 100vw;
+    padding-left: 56px;
+  }
+
+  .position-search-icon {
+    left: 22px;
+  }
+
+  .text-sm-center {
+    text-align: center;
+  }
+
+  .fs-sm-7 {
+    font-size: 7px;
+  }
+
+  .fs-sm-11 {
+    font-size: 11px;
+  }
+
+  .fs-sm-14 {
+    font-size: 14px;
+  }
+
+  .fs-42 {
+    font-size: 28px;
+  }
+
+  .fs-40 {
+    font-size: 25px;
+  }
+
+  .lh-sm-136percent {
+    line-height: 136%;
+  }
+
+  .filters .fs-22 {
+    font-size: 16px;
+  }
+
+  .banner .fs-18 {
+    font-size: 15px;
+  }
+
+  .lh-sm-147percent {
+    line-height: 147%;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: 524px;
+    padding: 66px 0 243px;
+    background: right -57px bottom 0 / 145% url("./images/dispenser-delabie-129.png") no-repeat, linear-gradient(91.79deg, #1dbcd1 16.94%, #3ddcf1 83.14%);
+  }
+
+  .banner .more-details > img {
+    width: 26.39px;
+    height: 9.6px;
+  }
+
+  .position-img {
+    top: 417px;
+    left: -127px;
+  }
+
+  .more-details {
+    width: 232px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .w-579 {
+    width: 340px;
+  }
+
+  .w-15percent {
+    width: 36.47vw;
+  }
+
+  .w-79percent {
+    width: 372px;
+  }
+
+  .grid-4 {
+    grid-template-rows: 86px repeat(4, 1fr) 106px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 89.855vw;
+    background-color: $bg-catalog;
+  }
+
+  .filters {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    width: 89.855vw;
+    height: 86px;
+    padding: 33px 18.16px 33px 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .grid-4 .filters form,
+  .grid-4 .filters > div:not(:nth-of-type(1)) {
+    display: none;
+  }
+
+  .grid-4 .card > img {
+    width: 121px;
+    height: 147px;
+  }
+
+  .grid-4 .card-2 > img {
+    width: 152px;
+    height: 143px;
+  }
+
+  .card {
+    width: 177px;
+    height: 281px;
+    padding-left: 14px;
+    border-radius: 0;
+  }
+
+  .card-1 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  .card-2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / -1;
+  }
+
+  .card-3 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+
+  .card-4 {
+    grid-row: 3 / 4;
+    grid-column: 2 / -1;
+  }
+
+  .card-5 {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+  }
+
+  .card-6 {
+    grid-row: 4 / 5;
+    grid-column: 2 / -1;
+  }
+
+  .card-7 {
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+  }
+
+  .card-8 {
+    grid-row: 5 / 6;
+    grid-column: 2 / -1;
+  }
+
+  .card-9 {
+    grid-row: 6 / 7;
+    grid-column: 1 / 2;
+  }
+
+  .card-10 {
+    grid-row: 6 / 7;
+    grid-column: 2 / -1;
+  }
+
+  .show-more {
+    grid-row: 6 / -1;
+    grid-column: 1 / -1;
+    width: 102px;
+    height: 20px;
+    border-bottom: 2px solid $dark;
+    cursor: pointer;
+  }
+
+  .to-cart {
+    width: 43px;
+    height: 43px;
+    margin: auto 0 0 auto;
+  }
+
+  .discount {
+    width: 80px;
+    height: 29px;
+    margin-left: -15px;
+  }
+
+  .discount .fs-15 {
+    font-size: 12.2917px;
+  }
+
+  .strikethrough-line {
+    width: 47.72px;
+  }
+
+  .footer {
+    flex-direction: column;
+    width: 375px;
+    padding-top: 47px;
+    padding-bottom: 54px;
+  }
+
+  .about-site-developer {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 374px;
+    padding: 60px 0 46px;
+  }
+
+  .mt-sm-minus47px {
+    margin-top: -47px;
+  }
+
+  .mt-sm-minus20px {
+    margin-top: -20px;
+  }
+
+  .mt-sm-minus15px {
+    margin-top: -15px;
+  }
+
+  .mt-sm-minus4px {
+    margin-top: -4px;
+  }
+
+  .mt-sm-2 {
+    margin-top: 2px;
+  }
+
+  .mt-sm-5 {
+    margin-top: 5px;
+  }
+
+  .mt-sm-7 {
+    margin-top: 7px;
+  }
+
+  .mt-sm-10 {
+    margin-top: 10px;
+  }
+
+  .mt-sm-11 {
+    margin-top: 11px;
+  }
+
+  .mt-sm-12 {
+    margin-top: 12px;
+  }
+
+  .mt-sm-13 {
+    margin-top: 13px;
+  }
+
+  .mt-sm-16 {
+    margin-top: 16px;
+  }
+
+  .mt-sm-22 {
+    margin-top: 22px;
+  }
+
+  .mt-sm-24 {
+    margin-top: 24px;
+  }
+
+  .mt-sm-30 {
+    margin-top: 30px;
+  }
+
+  .mt-sm-31 {
+    margin-top: 31px;
+  }
+
+  .mt-sm-35 {
+    margin-top: 35px;
+  }
+
+  .mt-sm-43 {
+    margin-top: 43px;
+  }
+
+  .mt-sm-59 {
+    margin-top: 59px;
+  }
+
+  .mt-sm-61 {
+    margin-top: 61px;
+  }
+
+  .mt-sm-70 {
+    margin-top: 70px;
+  }
+
+  .mr-sm-minus3px {
+    margin-right: -3px;
+  }
+
+  .mb-sm-11 {
+    margin-bottom: 11px;
+  }
+
+  .ml-minus59px {
+    margin-left: -47px;
+  }
+
+  .ml-sm-minus6px {
+    margin-left: -6px;
+  }
+
+  .ml-sm-minus5px {
+    margin-left: -5px;
+  }
+
+  .ml-sm-minus2px {
+    margin-left: -2px;
+  }
+
+  .ml-sm-0 {
+    margin-left: 0;
+  }
+
+  .ml-sm-3 {
+    margin-left: 3px;
+  }
+
+  .ml-sm-4 {
+    margin-left: 4px;
+  }
+
+  .ml-sm-15 {
+    margin-left: 15px;
+  }
+
+  .ml-sm-18 {
+    margin-left: 18px;
+  }
+
+  .ml-sm-24 {
+    margin-left: 24px;
+  }
+
+  .ml-sm-33 {
+    margin-left: 33px;
+  }
+}

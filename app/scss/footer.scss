@@ -1,0 +1,25 @@
+a {
+  color: $secondary;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 79.17vw;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 55px;
+}
+
+.about-site-developer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 79.17vw;
+  margin: 0 auto;
+  padding: 43px 0 33px;
+  color: $secondary;
+  background-color: $light;
+  border-top: 1px solid rgb(217 218 225 / 80%);
+}

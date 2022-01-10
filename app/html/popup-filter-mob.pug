@@ -1,0 +1,192 @@
+.popup-bg-filter-mob 
+  .popup-filter-mob.h-2493.top-130percent.bg-popup-filter-mob 
+    .fs-25.mt-46.ml-5 Фильтры
+    .d-flex.align-items-center.justify-content-between.mt-47.ml-2 
+      span.fs-20 Отопительное оборудование
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-heating-equipment-popup")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-heating-equipment-popup")
+    form.d-flex.f-direction-column.mt-35(action="", id="heating-equipment-popup")
+      label.d-flex.align-items-center.big-chk 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Радиаторы отопления
+      label.d-flex.align-items-center.big-chk.mt-23 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Конвекторы отопления
+      label.d-flex.align-items-center.big-chk.mt-23 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Полотенцесушители
+      label.d-flex.align-items-center.big-chk.mt-23
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 Арматура для радиаторов 
+    .d-flex.justify-content-between.align-items-center.mt-62 
+      span.fs-20 Бренд
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-brand-popup")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-brand-popup")
+    form.d-flex.f-direction-column.mt-10(action="", id="brand-popup")
+      label.d-flex.align-items-center.big-chk.mt-23
+        input(type="checkbox")
+        span.mr-24.ml 
+        span.fs-18 Purmo
+      label.d-flex.align-items-center.big-chk.mt-23
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Irsap
+      label.d-flex.align-items-center.big-chk.mt-23
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Terma
+      label.d-flex.align-items-center.big-chk.mt-23 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Loten
+      label.d-flex.align-items-center.big-chk.mt-23
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 Guardo
+    .fs-20.mt-62 Цена
+    .mt-46(id="slider-mob") 
+    .d-flex.mt-24(id="slider-range-mob") 
+      .d-flex  
+        input.fs-18.mt-6(type="text", id="min", value="3000", style="width: 41px")
+        span.fs-12dot5667.ml-3 ₽
+      .d-flex
+        input.fs-18.mt-6.ml-139(type="text", id="max", value="23 000", style="width: 56px")
+        span.fs-12dot5667.ml-3 ₽
+    .d-flex.justify-content-between.align-items-center.mt-59   
+      span.fs-20 Количество секций
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-number-of-sections-popup")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-number-of-sections-popup")
+    form.d-flex.f-direction-column.mt-10(action="", id="number-of-sections-popup")
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 4
+      label.d-flex.align-items-center.big-chk.mt-24 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 6
+      label.d-flex.align-items-center.big-chk.mt-21 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 8
+      label.d-flex.align-items-center.big-chk.mt-24 
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 12
+    .d-flex.justify-content-between.align-items-center.mt-59  
+      span.fs-20 Межосетевое расстояние
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-inter-network-distance-popup")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-inter-network-distance-popup")
+    form.d-flex.f-direction-column.mt-10(action="", id="inter-network-distance-popup")
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 4
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 6
+      label.d-flex.align-items-center.big-chk.mt-21
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 8
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 12
+    .d-flex.justify-content-between.align-items-center.mt-62   
+      span.fs-20 Площадь отопления
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-heating-area-popup")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-heating-area-popup")
+    form.d-flex.f-direction-column.mt-10(action="", id="heating-area-popup")
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2 
+        span.fs-18 4
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 6
+      label.d-flex.align-items-center.big-chk.mt-21 
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 8
+      label.d-flex.align-items-center.big-chk.mt-24
+        input(type="checkbox")
+        span.mr-24.ml-2
+        span.fs-18 12
+    .d-flex.justify-content-between.align-items-center.mt-62   
+      span.fs-20.ml-3 Цвет
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-color-popup")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-color-popup")
+    form.d-flex.f-direction-column.mt-16(action="", id="color-popup")
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="red")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8(for="red") 
+          .color-circle.bg-red  
+          span.fs-18.text-secondary.ml-30 Красный
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="yellow")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="yellow") 
+          .color-circle.bg-yellow 
+          span.fs-18.text-secondary.ml-30 Желтый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="green")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="green") 
+          .color-circle.bg-green  
+          span.fs-18.text-secondary.ml-30 Зеленый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="blue")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="blue") 
+          .color-circle.bg-blue   
+          span.fs-18.text-secondary.ml-30 Синий
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19  
+        input.cross-chk(type="checkbox", id="violet")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="violet") 
+          .color-circle.bg-violet   
+          span.fs-18.text-secondary.ml-30 Фиолетовый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="pink")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="pink") 
+          .color-circle.bg-pink   
+          span.fs-18.text-secondary.ml-30 Розовый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="beige")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="beige") 
+          .color-circle.bg-beige  
+          span.fs-18.text-secondary.ml-30 Бежевый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="white")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="white") 
+          .color-circle.bg-white  
+          span.fs-18.text-secondary.ml-30 Белый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19  
+        input.cross-chk(type="checkbox", id="black")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="black") 
+          .color-circle.bg-black   
+          span.fs-18.text-secondary.ml-30 Черный
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="gray")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer.ml-8.mt-6(for="gray") 
+          .color-circle.bg-gray   
+          span.fs-18.text-secondary.ml-30 Серый
+    .submenu-popup-filter.d-flex.align-items-center.justify-content-between.mt-39
+      .to-apply 
+        img.mr-16(src="./images/pointer-to-the-right-white.png", alt="pointer to the right")
+        span.text-light Применить
+      span.text-secondary.ml-23 Сбросить
+      img.close-popup-filter-mob(src="./images/cross.png", alt="cross icon", width="14", height="14.29")

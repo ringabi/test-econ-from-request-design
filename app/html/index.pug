@@ -1,0 +1,21 @@
+doctype html
+html(lang="ru")
+  include head.pug
+  body
+    header.header.bg-light
+      include header.pug
+    .menu.bg-light.d-sm-none  
+      include menu.pug
+    main 
+      include banner.pug
+      include catalog.pug 
+      include seo-text.pug 
+    footer.footer.bg-light
+      include footer.pug 
+    include about-site-developer.pug
+    include popup-search-mob.pug
+    include popup-menu-mob.pug
+    include popup-filter-mob.pug  
+    script(src="./scripts/filter-display-control.js")
+    script(src="./scripts/popups-mob.js") 
+    script(src="./scripts/slider-range.js") 

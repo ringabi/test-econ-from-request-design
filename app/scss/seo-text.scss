@@ -1,0 +1,31 @@
+article {
+  width: 57.03vw;
+  margin: 190px auto 0;
+  padding-bottom: 190px;
+}
+
+article div:nth-child(1) {
+  font-size: 35px;
+  line-height: 44px;
+}
+
+article div:nth-of-type(2) {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+article p:nth-of-type(1) {
+  margin-top: 50px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+article p:nth-of-type(2),
+article p:nth-of-type(3),
+article p:nth-of-type(4) {
+  margin-top: 29px;
+  font-weight: 300;
+  line-height: 26px;
+}

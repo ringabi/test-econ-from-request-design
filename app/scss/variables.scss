@@ -1,0 +1,113 @@
+$light: #fff;
+$dark: #2b2e34;
+$secondary: #7e838c;
+$text-search: #73737b;
+$bg-search: #f7f7f7;
+$bg-filters: #f4f4f4;
+$bg-to-cart: #38d3e8;
+$bg-catalog: #e5e5e5;
+$bg-discount: #f31b4f;
+$bg-submenu-popup: #fbfbfb;
+$inactive: #858a93;
+$slider: #dee1e8;
+
+$equipment-colors: ("red": #ff6060,
+                    "yellow": #ffdc60,
+                    "green": #72e191,
+                    "blue": #6070ff,
+                    "violet": #a660ff,
+                    "pink": #ff60ac,
+                    "beige": #eec3ab,
+                    "white": #fff,
+                    "black": #292929,
+                    "gray": #9d9d9d
+                    );
+
+@font-face {
+  font-weight: 300;
+  font-family: Euclid Circular A;
+  src: url("assets/fonts/Euclid-Circular-A-Light.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Euclid Circular A;
+  src: url("assets/fonts/Euclid-Circular-A-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Euclid Circular A;
+  src: url("assets/fonts/Euclid-Circular-A-Medium.ttf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: Euclid Circular A;
+  src: url("assets/fonts/Euclid-Circular-A-SemiBold.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Circe Bold;
+  src: url("assets/fonts/Circe-Bold.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Circe Light;
+  src: url("assets/fonts/Circe-Light.woff");
+}
+
+.ff-circe-bold {
+  font-family: Circe Bold, sans-serif;
+}
+
+.ff-circe-light {
+  font-family: Circe Light, sans-serif;
+}
+
+html,
+body,
+img,
+div,
+section,
+article {
+  margin: 0;
+  padding: 0;
+  font-family: Euclid Circular A, sans-serif;
+}
+
+body {
+  color: $dark;
+}
+
+main {
+  background-color: $bg-catalog;
+}
+
+.text-light {
+  color: $light;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-inactive {
+  color: $inactive;
+}
+
+.bg-light {
+  background-color: $light;
+}
+
+@each $color, $value in $equipment-colors {
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}

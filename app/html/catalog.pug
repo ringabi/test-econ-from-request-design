@@ -1,0 +1,356 @@
+.fs-15.mt-46.w-79percent.mx-auto.d-sm-none   
+  a.text-inactive(href="#") Главная
+  span.ml-10 / Отопительное оборудование
+.fs-40.mt-66.w-79percent.mx-auto.mt-sm-70 Отопительное оборудование
+.d-none.d-sm-block.fs-18.w-79percent.mx-auto.mt-sm-16 2395 товаров
+.grid-4.mt-58.mt-sm-31  
+  .filters
+    .d-flex.justify-content-between.align-items-center
+      .d-flex  
+        img.d-none.d-sm-block.mr-10(src="./images/bar-chart.png", alt="bar chart", id="bar-chart")
+        .fs-22 Фильтры
+      .d-sm-none  
+        span.text-secondary.mr-14 Сбросить
+        img.vertical-align-middle(src="./images/close-icon.png", alt="icon close")
+      .d-none.d-sm-block
+        span.mr-14 Сортировка
+        img(src="./images/arrow-to-down.png", alt="arrow to down")
+    .d-flex.justify-content-between.align-items-center.mt-60 
+      span.fs-18 Отопительное оборудование
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-heating-equipment")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-heating-equipment")
+    form.d-flex.f-direction-column.mt-26(action="", id="heating-equipment")
+      label.d-flex.align-items-center.big-chk 
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Радиаторы отопления
+      label.d-flex.align-items-center.big-chk.mt-16 
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Конвекторы отопления
+      label.d-flex.align-items-center.big-chk.mt-16 
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Полотенцесушители
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Арматура для радиаторов 
+    .d-flex.justify-content-between.align-items-center.mt-62 
+      span.fs-18 Бренд
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-brand")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-brand")
+    form.d-flex.f-direction-column.mt-10(action="", id="brand")
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Purmo
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Irsap
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Terma
+      label.d-flex.align-items-center.big-chk.mt-16 
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Loten
+      label.d-flex.align-items-center.big-chk.mt-19
+        input(type="checkbox")
+        span.mr-20 
+        span.fs-15 Guardo
+    .fs-18.mt-62 Цена
+    .mt-38(id="slider") 
+    .d-flex.mt-24(id="slider-range") 
+      .d-flex  
+        input.ml-minus8px(type="text", id="min", value="3000", style="width: 32px")
+        span.fs-10.ml-3 ₽
+      .d-flex
+        input.ml-111(type="text", id="max", value="23 000", style="width: 41px")
+        span.fs-10.ml-3 ₽
+    .d-flex.justify-content-between.align-items-center.mt-59  
+      span.fs-18 Количество секций
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-number-of-sections")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-number-of-sections")
+    form.d-flex.f-direction-column.mt-10(action="", id="number-of-sections")
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 4
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 6
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 8
+      label.d-flex.align-items-center.big-chk.mt-16 
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 12
+    .d-flex.justify-content-between.align-items-center.mt-62 
+      span.fs-18 Межосетевое расстояние
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-inter-network-distance")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-inter-network-distance")
+    form.d-flex.f-direction-column.mt-10(action="", id="inter-network-distance")
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 20 см
+      label.d-flex.align-items-center.big-chk.mt-16 
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 35 см
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 50 см
+    .d-flex.justify-content-between.align-items-center.mt-60  
+      span.fs-18 Площадь отопления
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-heating-area")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-heating-area")
+    form.d-flex.f-direction-column.mt-10(action="", id="heating-area")
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 Более 19 м² 
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 Менее 8 м²
+      label.d-flex.align-items-center.big-chk.mt-16
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 от 10 до 14 м²
+      label.d-flex.align-items-center.big-chk.mt-16 
+        input(type="checkbox")
+        span.mr-18 
+        span.fs-15 от 15 до 26 м²
+    .d-flex.justify-content-between.align-items-center.mt-59  
+      span.fs-18 Цвет
+      img(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-hide-color")
+      img.d-none.transform-rotate-180(src="./images/arrow-to-down.png", alt="arrow to down", id="arrow-show-color")
+    form.d-flex.f-direction-column.mt-10(action="", id="color")
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="red")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="red") 
+          .color-circle.bg-red  
+          span.fs-15.text-secondary.ml-23 Красный
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="yellow")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="yellow") 
+          .color-circle.bg-yellow 
+          span.fs-15.text-secondary.ml-23 Желтый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="green")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="green") 
+          .color-circle.bg-green  
+          span.fs-15.text-secondary.ml-23 Зеленый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-16 
+        input.cross-chk(type="checkbox", id="blue")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="blue") 
+          .color-circle.bg-blue   
+          span.fs-15.text-secondary.ml-23 Синий
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19  
+        input.cross-chk(type="checkbox", id="violet")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="violet") 
+          .color-circle.bg-violet   
+          span.fs-15.text-secondary.ml-23 Фиолетовый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="pink")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="pink") 
+          .color-circle.bg-pink   
+          span.fs-15.text-secondary.ml-23 Розовый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="beige")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="beige") 
+          .color-circle.bg-beige  
+          span.fs-15.text-secondary.ml-23 Бежевый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="white")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="white") 
+          .color-circle.bg-white  
+          span.fs-15.text-secondary.ml-23 Белый
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19  
+        input.cross-chk(type="checkbox", id="black")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="black") 
+          .color-circle.bg-black   
+          span.fs-15.text-secondary.ml-23 Черный
+      .d-flex.align-items-center.cross-chk.position-relative.mt-19 
+        input.cross-chk(type="checkbox", id="gray")
+        span.position-cross-chk 
+        label.d-flex.align-items-center.cursor-pointer(for="gray") 
+          .color-circle.bg-gray   
+          span.fs-15.text-secondary.ml-23 Серый
+  .top-filter.d-sm-none 
+    span.fs-18 2394
+      span.text-secondary  товаров
+    span.text-secondary.letter-spacing-dot02em Цена:
+      span.text-dark.mr-20.ml-4  По возрастанию
+      a(href="#")
+        img(src="./images/arrow-to-down.png", alt="arrow to down")
+  .card.card-1.mt-sm-24.ml-sm-3  
+    img.mt-9.ml-28.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-32.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-7 Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18.mt-sm-13  
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .d-flex.align-items-center.ml-6.ml-sm-minus6px   
+        .fs-12.text-secondary.ml-18.d-none.d-sm-block 5 890
+        .mt-minus4px.ml-5.fs-sm-7.d-none.d-sm-block ₽
+        .strikethrough-line.ml-minus59px.d-none.d-sm-block
+      .to-cart.mt-sm-7  
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-2.mt-sm-24 
+    .discount 
+      img(src="./images/percent-icon.png", alt="percent icon")
+      span.fs-15.text-light.opacity-dot9.ml-12 Акция
+    img.mt-minus18px.ml-3.ml-sm-minus5px.mt-sm-minus15px(src="./images/radiator-royal-123.png", alt="radiator royal 123", width="288", height="270")
+    .lh-156percent.mt-46.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-2 Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18.mt-sm-13  
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .d-flex.align-items-center.ml-6.ml-sm-minus6px   
+        .fs-12.text-secondary.ml-18.d-none.d-sm-block 5 890
+        .mt-minus4px.ml-5.fs-sm-7.d-none.d-sm-block ₽
+        .strikethrough-line.ml-minus59px.d-none.d-sm-block
+      .to-cart.mt-sm-7 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-3.ml-sm-3
+    img.mt-41.ml-28.d-sm-none(src="./images/radiator-royal-264.png", alt="radiator royal 264", width="241")
+    img.d-none.d-sm-block.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-52.w-15percent.d-sm-none Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico 
+    .d-none.d-sm-block.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-11 Биметаллический радиатор Royal Thermo Indigo Super
+    .d-flex.align-items-center.mt-18.mt-sm-13  
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .to-cart.mt-sm-7
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-4 
+    img.mt-9.ml-28.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-32.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-7 Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18.mt-sm-13 
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .to-cart.mt-sm-7 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-5.ml-sm-3.mt-sm-minus20px 
+    img.mt-18.ml-3.d-sm-none(src="./images/radiator-royal-123.png", alt="radiator royal 123", width="288", height="270")
+    img.d-none.d-sm-block.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-46.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-7 Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18.mt-sm-13  
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .to-cart.mt-sm-7 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-6.mt-sm-minus20px  
+    img.mt-41.ml-28.d-sm-none(src="./images/radiator-royal-264.png", alt="radiator royal 264", width="241")
+    img.d-none.d-sm-block.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .d-sm-none.lh-156percent.mt-52.w-15percent Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico 
+    .d-none.d-sm-block.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-7 Биметаллический радиатор Royal Thermo Indigo Super
+    .d-flex.align-items-center.mt-16.mt-sm-13 
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .to-cart.mt-sm-7  
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-7.ml-sm-3.mt-sm-minus47px 
+    img.mt-9.ml-28.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-32.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-7 Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18.mt-sm-12  
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5.fs-sm-11 ₽
+      .to-cart.mt-sm-7 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-8.mt-sm-minus47px
+    .discount.d-sm-none  
+      img(src="./images/percent-icon.png", alt="percent icon")
+      span.fs-15.text-light.opacity-dot9.ml-12 Акция
+    img.mt-minus18px.ml-3.d-sm-none(src="./images/radiator-royal-123.png", alt="radiator royal 123", width="288", height="270")
+    img.d-none.d-sm-block.mt-sm-5.ml-sm-15(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-46.w-15percent.fs-sm-14.lh-sm-136percent.mt-sm-10 Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18.mt-sm-13  
+      .fw-600.fs-20.d-sm-none 4 250
+      .d-none.d-sm-block.fw-600 13 890
+      .fs-13.mt-minus4px.ml-5 ₽
+      .d-flex.align-items-center.ml-6.d-sm-none  
+        .fs-15.text-secondary.ml-18 5 890
+        .fs-13.mt-minus4px.ml-5 ₽
+        .strikethrough-line.ml-minus59px 
+      .to-cart.mt-sm-7  
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-9.d-sm-none 
+    img.mt-41.ml-28(src="./images/radiator-royal-264.png", alt="radiator royal 264", width="241")
+    .lh-156percent.mt-52.w-15percent Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico 
+    .d-flex.align-items-center.mt-16 
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-10.d-sm-none 
+    img.mt-9.ml-28(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-32.w-15percent Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18  
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-11.d-sm-none 
+    img.mt-18.ml-3(src="./images/radiator-royal-123.png", alt="radiator royal 123", width="288", height="270")
+    .lh-156percent.mt-46.w-15percent Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18  
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-12.d-sm-none 
+    img.mt-41.ml-28(src="./images/radiator-royal-264.png", alt="radiator royal 264", width="241")
+    .lh-156percent.mt-52.w-15percent Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico 
+    .d-flex.align-items-center.mt-16 
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-13.d-sm-none 
+    img.mt-9.ml-28(src="./images/radiator-royal-130.png", alt="radiator royal 130", width="241", height="293")
+    .lh-156percent.mt-32.w-15percent Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18  
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-14.d-sm-none 
+    img.mt-18.ml-3(src="./images/radiator-royal-123.png", alt="radiator royal 123", width="288", height="270")
+    .lh-156percent.mt-46.w-15percent Биметаллический радиатор Royal Thermo Indigo Super 
+    .d-flex.align-items-center.mt-18  
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .card.card-15.d-sm-none 
+    img.mt-41.ml-28(src="./images/radiator-royal-264.png", alt="radiator royal 264", width="241")
+    .lh-156percent.mt-52.w-15percent Радиатор биметаллический Royal Thermo PianoForte Bianco Traffico 
+    .d-flex.align-items-center.mt-16  
+      .fw-600.fs-20 4 250
+      .fs-13.mt-minus4px.ml-5 ₽
+      .to-cart 
+        img(src="./images/shopping-basket-white.png", alt="shopping basket white")
+  .fs-15.show-more.mx-auto.text-sm-center.mt-minus38px.d-none.d-sm-block Показать еще

@@ -1,0 +1,126 @@
+.popup-bg-search-mob,
+.popup-bg-menu-mob,
+.popup-bg-filter-mob {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background: rgb(0 0 0 / 50%);
+  opacity: 0;
+  transition: 0.5s all;
+  pointer-events: none;
+}
+
+.popup-bg-search-mob.active,
+.popup-bg-menu-mob.active,
+.popup-bg-filter-mob.active {
+  opacity: 1;
+  transition: 0.5s all;
+  pointer-events: all;
+}
+
+.popup-search-mob,
+.popup-menu-mob,
+.popup-filter-mob {
+  position: absolute;
+  left: 50%;
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 17px 20px 20px 18px;
+  background: $light;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.5s all;
+}
+
+.top-50percent {
+  top: 50%;
+}
+
+.top-130percent {
+  top: 130%;
+}
+
+.bg-popup-filter-mob {
+  background-color: $bg-catalog;
+}
+
+.h-957 {
+  height: 957px;
+}
+
+.h-2493 {
+  height: 2493px;
+}
+
+.popup-search-mob.active,
+.popup-menu-mob.active,
+.popup-filter-mob.active {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.5s all;
+}
+
+.line {
+  width: 374px;
+  height: 0;
+  border: 0.5px solid rgb(0 0 0 / 13%);
+}
+
+.close-popup-search-mob,
+.close-popup-menu-mob {
+  position: absolute;
+  top: 19px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.popup-filter-mob form .big-chk input + span {
+  width: 25px;
+  height: 25px;
+}
+
+.popup-filter-mob .lowest-price {
+  top: 39px;
+  left: -1px;
+}
+
+.popup-filter-mob .high-price {
+  top: 39px;
+  left: 194px;
+}
+
+.popup-filter-mob .color-circle {
+  width: 12.57px;
+  height: 12.57px;
+  border-radius: 754px;
+}
+
+.to-apply {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 203px;
+  height: 54px;
+  padding: 0 51px 0 26px;
+  background-color: $bg-to-cart;
+}
+
+.submenu-popup-filter {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 115px;
+  margin-left: -18px;
+  padding-right: 44px;
+  padding-left: 22px;
+  background-color: $bg-submenu-popup;
+}
+
+.popup-bg-filter-mob .popup-filter-mob .cross-chk:checked ~ label span {
+  color: $dark;
+}
+
+#color-popup > .cross-chk input:checked + span {
+  background: url("./images/cross.png") center no-repeat;
+}

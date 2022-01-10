@@ -1,0 +1,31 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100vw;
+  max-width: 1920px;
+  height: 294px;
+  padding-right: 10.52%;
+  padding-left: 10.47%;
+  background: right 476px bottom 0 url("./images/dispenser-delabie-129.png") no-repeat, linear-gradient(91.79deg, #1dbcd1 16.94%, #3ddcf1 83.14%);
+}
+
+.position-img {
+  position: absolute;
+  right: 24.79vw;
+}
+
+.more-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 282px;
+  height: 78px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  background-color: $light;
+  border-radius: 2px;
+}
