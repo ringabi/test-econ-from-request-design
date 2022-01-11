@@ -527,6 +527,10 @@ main {
   margin-left: 3.9063vw;
 }
 
+.ml-111 {
+  margin-left: 111px;
+}
+
 .ml-139 {
   margin-left: 139px;
 }
@@ -542,8 +546,8 @@ header input {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   width: 79.17%;
   height: 6.3125rem;
   margin: 0 auto;
@@ -555,9 +559,9 @@ header input {
   width: 40.88vw;
   height: 3.375rem;
   padding-left: 66px;
+  color: #73737b;
   font-size: 15px;
   line-height: 19px;
-  color: #73737b;
   background-color: #f7f7f7;
 }
 
@@ -576,18 +580,18 @@ header input {
   justify-content: center;
   width: 16.22px;
   height: 16.22px;
+  color: #fff;
   font-weight: bold;
   font-size: 10px;
   line-height: 13px;
-  color: #fff;
   background-color: #1dbcd2;
   border-radius: 50%;
 }
 
 .menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   width: 79.17%;
   height: 83px;
   margin: 0 auto;
@@ -604,7 +608,7 @@ header input {
   height: 294px;
   padding-right: 10.52%;
   padding-left: 10.47%;
-  background: right 476px bottom 0 url("./images/dispenser-delabie-129.png") no-repeat, linear-gradient(91.79deg, #1DBCD1 16.94%, #3DDCF1 83.14%);
+  background: right 476px bottom 0 url("./images/dispenser-delabie-129.png") no-repeat, linear-gradient(91.79deg, #1dbcd1 16.94%, #3ddcf1 83.14%);
 }
 
 .position-img {
@@ -628,36 +632,36 @@ header input {
 
 .grid-4 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 87px repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 35px;
   width: 79.17vw;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   background-color: #e5e5e5;
 }
 
 .filters {
-  grid-column: 1/2;
   grid-row: 1/-1;
+  grid-column: 1/2;
+  box-sizing: border-box;
   width: 18.4896vw;
   height: 1910px;
-  box-sizing: border-box;
   padding: 30px 31.19px 42px 30px;
   background-color: #f4f4f4;
 }
 
 .top-filter {
   display: flex;
+  grid-row: 1/2;
+  grid-column: 2/-1;
   align-items: center;
   justify-content: space-between;
-  grid-column: 2/-1;
-  grid-row: 1/2;
   box-sizing: border-box;
   width: 58.9vw;
   height: 87px;
-  padding-left: 41px;
   padding-right: 41px;
+  padding-left: 41px;
   background-color: #f4f4f4;
   border-radius: 3px;
 }
@@ -672,78 +676,78 @@ header input {
 }
 
 .card-1 {
-  grid-column: 2/3;
   grid-row: 2/3;
+  grid-column: 2/3;
 }
 
 .card-2 {
-  grid-column: 3/4;
   grid-row: 2/3;
+  grid-column: 3/4;
 }
 
 .card-3 {
-  grid-column: 4/-1;
   grid-row: 2/3;
+  grid-column: 4/-1;
 }
 
 .card-4 {
-  grid-column: 2/3;
   grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 .card-5 {
-  grid-column: 3/4;
   grid-row: 3/4;
+  grid-column: 3/4;
 }
 
 .card-6 {
-  grid-column: 4/-1;
   grid-row: 3/4;
+  grid-column: 4/-1;
 }
 
 .card-7 {
-  grid-column: 2/3;
   grid-row: 4/5;
+  grid-column: 2/3;
 }
 
 .card-8 {
-  grid-column: 3/4;
   grid-row: 4/5;
+  grid-column: 3/4;
 }
 
 .card-9 {
-  grid-column: 4/-1;
   grid-row: 4/5;
+  grid-column: 4/-1;
 }
 
 .card-10 {
-  grid-column: 2/3;
   grid-row: 5/6;
+  grid-column: 2/3;
 }
 
 .card-11 {
-  grid-column: 3/4;
   grid-row: 5/6;
+  grid-column: 3/4;
 }
 
 .card-12 {
-  grid-column: 4/-1;
   grid-row: 5/6;
+  grid-column: 4/-1;
 }
 
 .card-13 {
-  grid-column: 2/3;
   grid-row: 6/-1;
+  grid-column: 2/3;
 }
 
 .card-14 {
-  grid-column: 3/4;
   grid-row: 6/-1;
+  grid-column: 3/4;
 }
 
 .card-15 {
-  grid-column: 4/-1;
   grid-row: 6/-1;
+  grid-column: 4/-1;
 }
 
 .to-cart {
@@ -764,7 +768,7 @@ header input {
   height: 36px;
   margin-left: -30px;
   background-color: #f31b4f;
-  border-radius: 2px 0 0 0;
+  border-radius: 2px 0 0;
 }
 
 .strikethrough-line {
@@ -780,8 +784,8 @@ header input {
 
 .big-chk input,
 .cross-chk input {
-  padding: 0;
   margin-right: -16px;
+  padding: 0;
   visibility: hidden;
 }
 
@@ -868,8 +872,8 @@ header input {
 
 article {
   width: 57.03vw;
-  padding-bottom: 190px;
   margin: 190px auto 0;
+  padding-bottom: 190px;
 }
 
 article div:nth-child(1) {
@@ -878,24 +882,24 @@ article div:nth-child(1) {
 }
 
 article div:nth-of-type(2) {
+  margin-top: 50px;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
-  margin-top: 50px;
 }
 
 article p:nth-of-type(1) {
+  margin-top: 50px;
   font-weight: 300;
   line-height: 26px;
-  margin-top: 50px;
 }
 
 article p:nth-of-type(2),
 article p:nth-of-type(3),
 article p:nth-of-type(4) {
+  margin-top: 29px;
   font-weight: 300;
   line-height: 26px;
-  margin-top: 29px;
 }
 
 a {
@@ -907,9 +911,9 @@ a {
   display: flex;
   justify-content: space-between;
   width: 79.17vw;
+  margin: 0 auto;
   padding-top: 32px;
   padding-bottom: 55px;
-  margin: 0 auto;
 }
 
 .about-site-developer {
@@ -917,11 +921,11 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 79.17vw;
-  padding: 43px 0 33px;
   margin: 0 auto;
+  padding: 43px 0 33px;
   color: #7e838c;
-  border-top: 1px solid rgba(217, 218, 225, 0.8);
   background-color: #fff;
+  border-top: 1px solid rgba(217, 218, 225, 0.8);
 }
 
 @media (max-width: 415px) {
@@ -938,11 +942,26 @@ a {
   }
 
   .header {
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 88.88vw;
     height: 71px;
     padding: 16.89px 0 17.24px;
-    flex-wrap: wrap;
+  }
+
+  .banner > img {
+    width: 596.25px;
+    height: 213.25px;
+  }
+
+  .to-cart > img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .discount img {
+    width: 11.47px;
+    height: 12.29px;
   }
 
   .header > img:nth-of-type(1) {
@@ -1004,12 +1023,7 @@ a {
     flex-direction: column;
     height: 524px;
     padding: 66px 0 243px;
-    background: right -57px bottom 0/145% url("./images/dispenser-delabie-129.png") no-repeat, linear-gradient(91.79deg, #1DBCD1 16.94%, #3DDCF1 83.14%);
-  }
-
-  .banner > img {
-    width: 596.25px;
-    height: 213.25px;
+    background: right -57px bottom 0/145% url("./images/dispenser-delabie-129.png") no-repeat, linear-gradient(91.79deg, #1dbcd1 16.94%, #3ddcf1 83.14%);
   }
 
   .banner .more-details > img {
@@ -1043,20 +1057,20 @@ a {
   }
 
   .grid-4 {
-    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 86px repeat(4, 1fr) 106px;
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     width: 89.855vw;
     background-color: #e5e5e5;
   }
 
   .filters {
-    grid-column: 1/-1;
     grid-row: 1/2;
-    letter-spacing: 0.02em;
+    grid-column: 1/-1;
     width: 89.855vw;
     height: 86px;
     padding: 33px 18.16px 33px 14px;
+    letter-spacing: 0.02em;
   }
 
   .grid-4 .filters form,
@@ -1082,58 +1096,58 @@ a {
   }
 
   .card-1 {
-    grid-column: 1/2;
     grid-row: 2/3;
+    grid-column: 1/2;
   }
 
   .card-2 {
-    grid-column: 2/-1;
     grid-row: 2/3;
+    grid-column: 2/-1;
   }
 
   .card-3 {
-    grid-column: 1/2;
     grid-row: 3/4;
+    grid-column: 1/2;
   }
 
   .card-4 {
-    grid-column: 2/-1;
     grid-row: 3/4;
+    grid-column: 2/-1;
   }
 
   .card-5 {
-    grid-column: 1/2;
     grid-row: 4/5;
+    grid-column: 1/2;
   }
 
   .card-6 {
-    grid-column: 2/-1;
     grid-row: 4/5;
+    grid-column: 2/-1;
   }
 
   .card-7 {
-    grid-column: 1/2;
     grid-row: 5/6;
+    grid-column: 1/2;
   }
 
   .card-8 {
-    grid-column: 2/-1;
     grid-row: 5/6;
+    grid-column: 2/-1;
   }
 
   .card-9 {
-    grid-column: 1/2;
     grid-row: 6/7;
+    grid-column: 1/2;
   }
 
   .card-10 {
-    grid-column: 2/-1;
     grid-row: 6/7;
+    grid-column: 2/-1;
   }
 
   .show-more {
-    grid-column: 1/-1;
     grid-row: 6/-1;
+    grid-column: 1/-1;
     width: 102px;
     height: 20px;
     border-bottom: 2px solid #2b2e34;
@@ -1146,11 +1160,6 @@ a {
     margin: auto 0 0 auto;
   }
 
-  .to-cart > img {
-    width: 20px;
-    height: 20px;
-  }
-
   .discount {
     width: 80px;
     height: 29px;
@@ -1159,11 +1168,6 @@ a {
 
   .discount .fs-15 {
     font-size: 12.2917px;
-  }
-
-  .discount img {
-    width: 11.47px;
-    height: 12.29px;
   }
 
   .strikethrough-line {
@@ -1178,8 +1182,8 @@ a {
   }
 
   .about-site-developer {
-    align-items: flex-start;
     flex-direction: column;
+    align-items: flex-start;
     width: 374px;
     padding: 60px 0 46px;
   }
@@ -1188,8 +1192,8 @@ a {
     margin-top: -47px;
   }
 
-  .mt-sm-minus20px {
-    margin-top: -20px;
+  .mt-sm-minus24px {
+    margin-top: -24px;
   }
 
   .mt-sm-minus15px {
@@ -1210,6 +1214,10 @@ a {
 
   .mt-sm-7 {
     margin-top: 7px;
+  }
+
+  .mt-sm-8 {
+    margin-top: 8px;
   }
 
   .mt-sm-10 {
@@ -1357,11 +1365,11 @@ a {
 }
 
 .top-50percent {
-  top: 50%;
+  top: 65%;
 }
 
 .top-130percent {
-  top: 130%;
+  top: 169%;
 }
 
 .bg-popup-filter-mob {
@@ -1402,16 +1410,6 @@ a {
   height: 25px;
 }
 
-.popup-filter-mob .lowest-price {
-  top: 39px;
-  left: -1px;
-}
-
-.popup-filter-mob .high-price {
-  top: 39px;
-  left: 194px;
-}
-
 .popup-filter-mob .color-circle {
   width: 12.57px;
   height: 12.57px;
@@ -1433,18 +1431,14 @@ a {
   box-sizing: border-box;
   width: 100vw;
   height: 115px;
-  padding-left: 22px;
-  padding-right: 44px;
   margin-left: -18px;
+  padding-right: 44px;
+  padding-left: 22px;
   background-color: #fbfbfb;
 }
 
-#color-popup > .cross-chk input:checked + span {
-  background: url("./images/cross.png") center no-repeat;
-}
-
-.popup-bg-filter-mob .popup-filter-mob .cross-chk:checked ~ label span {
-  color: #2b2e34;
+#color-popup .position-cross-chk {
+  left: 159px;
 }
 
 /*# sourceMappingURL=style.css.map */

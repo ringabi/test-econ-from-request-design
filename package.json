@@ -2,9 +2,13 @@
   "name": "test-econ-from-request-design",
   "version": "1.0.0",
   "description": "test task from request design",
-  "main": "index.html",
+  "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringabi/test-econ-from-request-design.git"
   },
   "keywords": [
     "test task",
@@ -12,6 +16,10 @@
   ],
   "author": "Rinat Gabidullin",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ringabi/test-econ-from-request-design/issues"
+  },
+  "homepage": "https://github.com/ringabi/test-econ-from-request-design#readme",
   "devDependencies": {
     "eslint": "^8.6.0",
     "stylelint": "^14.2.0",
@@ -19,5 +27,10 @@
     "stylelint-config-standard": "^24.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.1.0"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ]
 }

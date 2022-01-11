@@ -18,8 +18,8 @@ $(function(){
 		max: 35000,
 		values: ['3000', '23000'],
 		slide: function(event, ui) {
-			$('#min').val(ui.values[0]);
-			$('#max').val(ui.values[1]);
+			$('#min-mob').val(ui.values[0]);
+			$('#max-mob').val(ui.values[1]);
 		}
 	});
 });
