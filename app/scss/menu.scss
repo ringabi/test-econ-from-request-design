@@ -1,9 +1,15 @@
 .menu {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 79.17%;
   height: 83px;
   margin: 0 auto;
   font-size: 18px;
+}
+
+.menu a {
+  color: $dark;
+  text-decoration: none;
 }

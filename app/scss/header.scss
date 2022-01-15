@@ -6,7 +6,7 @@ header input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 79.17%;
+  width: 95rem;
   height: 6.3125rem;
   margin: 0 auto;
 }
@@ -14,7 +14,8 @@ header input {
 .search {
   display: flex;
   align-items: center;
-  width: 40.88vw;
+  box-sizing: border-box;
+  width: 53.1875rem;
   height: 3.375rem;
   padding-left: 66px;
   color: $text-search;
