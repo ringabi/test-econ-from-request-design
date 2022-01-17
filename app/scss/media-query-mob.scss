@@ -394,12 +394,24 @@
     padding: 60px 0 46px 20px;
   }
 
+  .top-50percent.active {
+    top: 78%;
+  }
+
+  .top-130percent.active {
+    top: 203%;
+  }
+
   .pl-xs-20 {
     padding-left: 20px;
   }
 
   .ml-sm-minus47px {
     margin-left: -40px;
+  }
+
+  .to-apply {
+    width: 165px;
   }
 }
 
