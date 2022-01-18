@@ -190,10 +190,24 @@ showFilterColorPopup.addEventListener('click', () => {
   hideFilterColorPopup.style.display = 'inline-block';
 });
 
-//const removingCheckboxActivity = document.querySelector('#red + span');
-//const removingActivity = document.querySelector('#color label:nth-of-type(1) > .color-circle');
+const hideHeatingEquipmentMenuMob = document.querySelector('#arrow-hide-heating-equipment-menu-mob');
+const heatingEquipmentMenuMob = document.querySelector('#heating-equipment-menu-mob');
+const heatingEquipmentMenuMobTitle = document.querySelector('#heating-equipment-menu-mob-title');
+const marginTopLine = document.querySelector('#heating-equipment-menu-mob + .mt-39');
+let hiddenFlag;
 
-//removingCheckboxActivity.addEventListener('click', () => {
-//    removingCheckboxActivity.style.display = 'none';
-//    removingActivity.style.border = 'none';
-//});
+hideHeatingEquipmentMenuMob.addEventListener('click', () => {
+  heatingEquipmentMenuMob.style.display = 'none';
+  hideHeatingEquipmentMenuMob.style.display = 'none';
+  marginTopLine.style.margin = '19px 0 0';
+  hiddenFlag = true;
+});
+
+heatingEquipmentMenuMobTitle.addEventListener('click', () => {
+  if (hiddenFlag === true) {
+    heatingEquipmentMenuMob.style.display = 'inline-block';
+    hideHeatingEquipmentMenuMob.style.display = 'inline-block';
+    marginTopLine.style.margin = '39px 0 0';
+    hiddenFlag = false;
+  }
+});
