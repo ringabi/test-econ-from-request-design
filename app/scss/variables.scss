@@ -89,6 +89,11 @@ main {
   background-color: $bg-catalog;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .text-light {
   color: $light;
 }

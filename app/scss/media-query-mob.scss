@@ -122,19 +122,11 @@
 
   .grid-4 {
     grid-template-rows: 86px repeat(4, 1fr) 106px;
-    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    width: 89.855vw;
-    background-color: $bg-catalog;
   }
 
-  .filters {
-    grid-row: 1 / 2;
-    grid-column: 1 / -1;
-    width: 89.855vw;
-    height: 86px;
-    padding: 33px 18.16px 33px 14px;
-    letter-spacing: 0.02em;
+  .grid-4-rows-10 {
+    grid-template-rows: 86px repeat(8, 1fr) 60px;
   }
 
   .grid-4 .card > img {
@@ -188,6 +180,10 @@
     box-sizing: border-box;
     width: 374px;
     padding: 60px 0 46px;
+  }
+
+  .mt-sm-minus69px {
+    margin-top: -69px;
   }
 
   .mt-sm-minus47px {

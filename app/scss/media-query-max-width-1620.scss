@@ -132,6 +132,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .grid-4-rows-10 {
+    grid-template-rows: 86px repeat(8, 1fr) 60px;
+  }
+
   .filters {
     width: 29vw;
   }
@@ -208,10 +212,24 @@
     grid-column: 3 / -1;
   }
 
+  .card-15 {
+    grid-row: 9 / 10;
+    grid-column: 2 / 3;
+  }
+
   .show-more {
     grid-row: 6 / -1;
     grid-column: 1 / -1;
     width: 102px;
+    height: 20px;
+    border-bottom: 2px solid $dark;
+    cursor: pointer;
+  }
+
+  .hide {
+    grid-row: 10 / -1;
+    grid-column: 1 / -1;
+    width: 62px;
     height: 20px;
     border-bottom: 2px solid $dark;
     cursor: pointer;
@@ -294,7 +312,6 @@
   }
 
   .grid-4 {
-    grid-template-rows: 86px repeat(4, 1fr) 106px;
     grid-template-columns: repeat(2, 1fr);
     width: 89.855vw;
     background-color: $bg-catalog;
@@ -374,6 +391,31 @@
   .card-10 {
     grid-row: 6 / 7;
     grid-column: 2 / -1;
+  }
+
+  .card-11 {
+    grid-row: 7 / 8;
+    grid-column: 1 / 2;
+  }
+
+  .card-12 {
+    grid-row: 7 / 8;
+    grid-column: 2 / -1;
+  }
+
+  .card-13 {
+    grid-row: 8 / 9;
+    grid-column: 1 / 2;
+  }
+
+  .card-14 {
+    grid-row: 8 / 9;
+    grid-column: 2 / -1;
+  }
+
+  .card-15 {
+    grid-row: 9 / 10;
+    grid-column: 1 / -1;
   }
 
   .w-15percent {
